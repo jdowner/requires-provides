@@ -16,10 +16,9 @@ setuptools.setup(
         package_data={
           '': ['*.rst', 'LICENSE'],
         },
-        extra_requires=[
-            'pep8',
-            'tox',
-            ],
+        extras_require={
+            'dev': ['pep8', 'tox'],
+            },
         platforms=['Unix'],
         test_suite="tests",
         classifiers=[
