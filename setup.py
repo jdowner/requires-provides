@@ -16,7 +16,7 @@ setuptools.setup(
         package_data={
           '': ['*.rst', 'LICENSE'],
         },
-        install_requires=[
+        extra_requires=[
             'pep8',
             'tox',
             ],
