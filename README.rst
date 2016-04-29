@@ -55,7 +55,7 @@ A class that requires the 'foo' requirement to be fulfilled is expressed as,
       pass
 
 
-Class of functions can specify multiple provides or requires,
+Classes or functions can specify multiple provides or requires,
 
 ::
 
